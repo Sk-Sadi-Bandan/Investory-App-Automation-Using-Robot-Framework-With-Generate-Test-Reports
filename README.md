@@ -1,4 +1,4 @@
-# Kri-Shop Android App Automation
+# Investory Android App Automation
 
 1. Download Visual Studio Code & Install: DONE
 
@@ -98,8 +98,8 @@
 		  "appium:autoGrantPermissions": true,
 		  "appium:noReset": false,
 		  "appium:fullReset": false,
-		  "appium:appPackage": "asia.ifarmer.retailer.dev",
-		  "appium:appActivity": "asia.ifarmer.retailer.views.activities.SplashActivity"
+		  "appium:appPackage": "asia.ifarmer.investor",
+		  "appium:appActivity": "asia.ifarmer.investor.MainActivity"
 		}
 	
 	or
@@ -112,7 +112,7 @@
 		  "appium:autoGrantPermissions": true,
 		  "appium:noReset": false,
 		  "appium:fullReset": false,
-		  "appium:app": "E:\\KriShop\\KriShop.apk"
+		  "appium:app": "E:\\Investor\\Investor Production.apk"
 		}
 
    Click on Start session.
@@ -124,11 +124,11 @@
 4. Some Application & Dependency should be downloaded to the Testing Device.
 
 	   	Appium Settings
-	   	APK info -> Kri-Shop:
-	   			Packages -> asia.ifarmer.retailer.dev
-	   			Activities -> asia.ifarmer.retailer.views.activities.SplashActivity
+	   	APK info -> Investor:
+	   			Packages -> asia.ifarmer.investor
+	   			Activities -> asia.ifarmer.investor.MainActivity
 	   	Apps Backup
-	   	Kri-Shop: Testing app
+	   	Investor: Testing app
 
 5. Project run from terminal command “robot --include tags test_suites”, “robot test_suites”.
 
