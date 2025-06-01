@@ -35,3 +35,35 @@ Scenario: Verify that iFarmer Login is Successfully
     CLick on Password Login Input Section
     Click on Login
 
+
+#Test Case 3
+Scenario: Verify that iFarmer doesn't Login with unregistered number
+    [Tags]    unreg
+    Open app
+    Click on Close Ad
+    Click on Login Icon
+    CLick on Unregistered Email Login Input Section
+    CLick on Password Login Input Section
+    Click on Login
+
+
+#Test Case 4
+Scenario: Verify that iFarmer Forget PIN is Successfully
+    [Tags]    forget
+    Open app
+    Click on Close Ad
+    Click on Login Icon
+    CLick on Email Login Input Section
+    CLick on Wrong Password Login Input Section
+    Click on Login
+    Click on Forget PIN
+    Click on Email Login Input Section
+    Click on Create PIN Input Section
+    Click on Confirm PIN Input Section
+    Click on Send
+    Click on Input otp1 otp2 otp3 otp4
+    Click on Proceed
+    Click on Start
+    CLick on Email Login Input Section
+    CLick on Password Login Input Section
+    Click on Login
