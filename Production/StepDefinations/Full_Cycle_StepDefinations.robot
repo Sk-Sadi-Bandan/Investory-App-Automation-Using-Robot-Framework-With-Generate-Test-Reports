@@ -116,7 +116,4 @@ Click on Submit Proof
 Click on Confirm Payment
     Wait Until Element Is visible               ${Confirm_Payment}
     Click Element                               ${Confirm_Payment}
-Click on Order Details
-    Wait Until Element Is visible               ${Order_Details}
-    Click Element                               ${Order_Details}
     Sleep                                       5s

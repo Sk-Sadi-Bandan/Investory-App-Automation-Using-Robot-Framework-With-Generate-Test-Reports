@@ -19,7 +19,7 @@ ${Next}                             xpath=//android.widget.Button[@content-desc=
 ${Next_Nominee}                     xpath=//android.view.View[@content-desc="Next"]
 ${I_agree}                          xpath=//android.widget.CheckBox
 ${See_Order_Details}                xpath=//android.widget.Button[@content-desc="See Order Details"]
-${Submit_Proof_Payment}             xpath=(//android.widget.Button[@content-desc="Submit Proof of Payment"])[1]
+${Submit_Proof_Payment}             xpath=(//android.widget.Button[@content-desc="Submit Proof of Payment"])[2]
 ${Upload_Proof_Payment}             xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.view.View[4]/android.view.View/android.view.View
 ${Online_Payment}                   xpath=//android.widget.ImageView[contains(@content-desc, "Online Payment")]
 ${Proceed}                          xpath=//android.widget.Button[@content-desc="Proceed"]

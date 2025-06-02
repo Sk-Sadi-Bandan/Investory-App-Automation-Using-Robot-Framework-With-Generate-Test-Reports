@@ -53,7 +53,6 @@ Scenario: Verify that Full Cycle of Product Buy in Krishop is Successfully
     Click on Add
     Click on Submit Proof
     Click on Confirm Payment
-    Click on Order Details
 
     Close app
 
