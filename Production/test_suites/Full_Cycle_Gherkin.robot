@@ -20,18 +20,18 @@ Scenario: Verify that Full Cycle of Product Buy in Krishop is Successfully
     CLick on Password Input Section
     Click on Login
 
-    #Click on All Farms
-    #Click on a specific Active Farms
-    #Click on Book Now
-    #CLick on Next
-    #CLick on Next
-    #Click on Next Nominee
-    #Click on I agree Checkbox
-    #Click on Book Now
-    #Click on See Order Details
+    Click on All Farms
+    Click on a specific Active Farms
+    Click on Book Now
+    CLick on Next
+    CLick on Next
+    Click on Next Nominee
+    Click on I agree Checkbox
+    Click on Book Now
+    Click on See Order Details
 
-    Click on My Farms
-    CLick on Pending Farms
+    #Click on My Farms
+    #CLick on Pending Farms
 
     Click on Submit Proof of Payment
     Click on Upload Proof of Payment
