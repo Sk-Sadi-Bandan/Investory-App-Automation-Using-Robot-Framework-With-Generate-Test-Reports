@@ -13,7 +13,7 @@ ${Password}                         xpath=(//android.widget.EditText)[2]
 ${Login}                            xpath=(//android.view.View[@content-desc="Login"])[2]
 
 ${All_Farms}                        xpath=//android.widget.ImageView[contains(@content-desc, "All Farms")]
-${Book_Specific_Active_Farms}       xpath=(//android.view.View[@content-desc="Book"])[1]
+${Book_Specific_Active_Farms}       xpath=(//android.view.View[@content-desc="Book"])[2]
 ${Book_Now}                         xpath=//android.widget.Button[@content-desc="Book Now"]
 ${Next}                             xpath=//android.widget.Button[@content-desc="Next"]
 ${Next_Nominee}                     xpath=//android.view.View[@content-desc="Next"]

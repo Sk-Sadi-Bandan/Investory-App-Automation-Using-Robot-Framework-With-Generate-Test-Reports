@@ -52,16 +52,6 @@ Click on I agree Checkbox
 Click on See Order Details
     Wait Until Element Is visible               ${See_Order_Details}
     Click Element                               ${See_Order_Details}
-
-
-Click on My Farms
-    Wait Until Element Is visible               ${My_Farms}
-    Click Element                               ${My_Farms}
-Click on Pending Farms
-    Wait Until Element Is visible               ${Pending_Farms}
-    Click Element                               ${Pending_Farms}
-
-
 Click on Submit Proof of Payment
     Wait Until Element Is visible               ${Submit_Proof_Payment}
     Click Element                               ${Submit_Proof_Payment}
@@ -117,3 +107,11 @@ Click on Confirm Payment
     Wait Until Element Is visible               ${Confirm_Payment}
     Click Element                               ${Confirm_Payment}
     Sleep                                       5s
+
+#Below 2 code add for continous test
+Click on My Farms
+    Wait Until Element Is visible               ${My_Farms}
+    Click Element                               ${My_Farms}
+Click on Pending Farms
+    Wait Until Element Is visible               ${Pending_Farms}
+    Click Element                               ${Pending_Farms}

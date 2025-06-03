@@ -30,6 +30,7 @@ Scenario: Verify that Full Cycle of Product Buy in Krishop is Successfully
     Click on Book Now
     Click on See Order Details
 
+    #Below 2 code add for continous test
     #Click on My Farms
     #CLick on Pending Farms
 
