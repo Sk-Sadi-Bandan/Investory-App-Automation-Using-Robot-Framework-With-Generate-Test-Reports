@@ -15,6 +15,10 @@ ${Input_Confirm_PIN}                             123456
 
 ${Input_Password}                                123456
 
+${Input_Unregistered_Email}                      qa@gmail.com
+
+${Input_Wrong_Password}                          654321
+
 
 
 *** Keywords ***
@@ -44,9 +48,9 @@ Click on Confirm PIN Input Section
     Wait Until Element Is visible               ${Confirm_PIN}
     Click Element                               ${Confirm_PIN}
     Input Text                                  ${Confirm_PIN}                   ${Input_Confirm_PIN}
-Click on Procced
-    Wait Until Element Is visible               ${Procced}
-    Click Element                               ${Procced}
+Click on Proceed
+    Wait Until Element Is visible               ${Proceed}
+    Click Element                               ${Proceed}
     Sleep                                       5s
 
 
@@ -62,4 +66,37 @@ Click on Login
     Wait Until Element Is visible               ${Login}
     Click Element                               ${Login}
     Sleep                                       5s
+
+
+Click on Unregistered Email Login Input Section
+    Wait Until Element Is visible               ${Email_Login}
+    Click Element                               ${Email_Login}
+    Input Text                                  ${Email_Login}                   ${Input_Unregistered_Email}
+
+
+Click on Wrong Password Login Input Section
+    Wait Until Element Is visible               ${Password_Login}
+    Click Element                               ${Password_Login}
+    Input Text                                  ${Password_Login}                ${Input_Wrong_Password}
+Click on Forget PIN
+    Wait Until Element Is visible               ${Forget_PIN}
+    Click Element                               ${Forget_PIN}
+Click on Forgeted New PIN Input Section
+    Wait Until Element Is visible               ${Forgeted_New_PIN}
+    Click Element                               ${Forgeted_New_PIN}
+    Input Text                                  ${Forgeted_New_PIN}              ${Input_Create_PIN}
+Click on Forgeted Confirm PIN Input Section
+    Wait Until Element Is visible               ${Forgeted_Confirm_PIN}
+    Click Element                               ${Forgeted_Confirm_PIN}
+    Input Text                                  ${Forgeted_Confirm_PIN}          ${Input_Confirm_PIN}
+Click on Send
+    Wait Until Element Is visible               ${Send}
+    Click Element                               ${Send}
+    Sleep                                       30s
+Click on Confirm
+    Wait Until Element Is visible               ${Confirm}
+    Click Element                               ${Confirm}
+Click on Start
+    Wait Until Element Is visible               ${Start}
+    Click Element                               ${Start}
 

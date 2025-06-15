@@ -22,7 +22,7 @@ Scenario: Verify that iFarmer Registration is Successfully
     Click on Email Input Section
     Click on Create PIN Input Section
     Click on Confirm PIN Input Section
-    Click on Procced
+    Click on Proceed
     
 
 #Test Case 2
@@ -58,12 +58,13 @@ Scenario: Verify that iFarmer Forget PIN is Successfully
     Click on Login
     Click on Forget PIN
     Click on Email Login Input Section
-    Click on Create PIN Input Section
-    Click on Confirm PIN Input Section
+    Click on Forgeted New PIN Input Section
+    Click on Forgeted Confirm PIN Input Section
     Click on Send
-    Click on Input otp1 otp2 otp3 otp4
-    Click on Proceed
+    #Input OTP from gmail inbox
+    Click on Confirm
     Click on Start
     CLick on Email Login Input Section
     CLick on Password Login Input Section
     Click on Login
+
