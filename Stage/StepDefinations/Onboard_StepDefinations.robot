@@ -54,6 +54,7 @@ Click on Proceed
     Sleep                                       5s
 
 
+#################################  Test Case 2  #################################
 Click on Email Login Input Section
     Wait Until Element Is visible               ${Email_Login}
     Click Element                               ${Email_Login}
@@ -68,12 +69,14 @@ Click on Login
     Sleep                                       5s
 
 
+#################################  Test Case 3  #################################
 Click on Unregistered Email Login Input Section
     Wait Until Element Is visible               ${Email_Login}
     Click Element                               ${Email_Login}
     Input Text                                  ${Email_Login}                   ${Input_Unregistered_Email}
 
 
+#################################  Test Case 4  #################################
 Click on Wrong Password Login Input Section
     Wait Until Element Is visible               ${Password_Login}
     Click Element                               ${Password_Login}
