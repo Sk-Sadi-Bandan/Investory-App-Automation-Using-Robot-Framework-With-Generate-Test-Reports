@@ -11,8 +11,8 @@ ${Login_Icon}                       xpath=//android.widget.ImageView[contains(@c
 ${SignUp}                           xpath=//android.widget.Button[@content-desc="Sign Up"]
 ${FullName}                         xpath=(//android.widget.EditText)[1]
 ${Email}                            xpath=(//android.widget.EditText)[2]
-${NewPassword}                      xpath=(//android.widget.EditText)[3]
-${CreateAccount}                    xpath=//android.view.View[@content-desc="Create Account"]
+${New_Password}                      xpath=(//android.widget.EditText)[3]
+${Create_Account}                    xpath=//android.view.View[@content-desc="Create Account"]
 ${Proceed}                          xpath=//android.widget.Button[@content-desc="Proceed"]
 
 ${Email_Login}                      xpath=(//android.widget.EditText)[1]
@@ -22,9 +22,3 @@ ${Login}                            xpath=(//android.view.View[@content-desc="Lo
 ${SignInGoogle}                     xpath=//android.widget.ImageView[@content-desc="Sign in with Google"]
 ${QAMail}                           xpath=(//android.widget.LinearLayout[@resource-id="com.google.android.gms:id/container"])[1]/android.widget.LinearLayout
 
-${Forget_PIN}                       xpath=//android.widget.Button[@content-desc="Forget PIN?"]
-${Forgeted_New_PIN}                 xpath=(//android.widget.EditText)[2]
-${Forgeted_Confirm_PIN}             xpath=(//android.widget.EditText)[3]
-${Send}                             xpath=//android.widget.Button[@content-desc="Send"]
-${Confirm}                          xpath=//android.widget.Button[@content-desc="Confirm"]
-${Start}                            xpath=//android.widget.Button[@content-desc="Start"]

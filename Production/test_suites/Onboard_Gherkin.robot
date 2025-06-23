@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation     Full Cycle Module Test Case for Investor App
+Documentation     Onboarding Module Test Case for Investor Production APK
 Library           AppiumLibrary
 Library           BuiltIn
 Resource           ../Environment/AppSetup.robot
@@ -48,27 +48,6 @@ Scenario: Verify that iFarmer doesn't Login with unregistered number
     Open app
     Click on Login Icon
     CLick on Unregistered Email Login Input Section
-    CLick on Password Login Input Section
-    Click on Login
-
-
-#Test Case 5
-Scenario: Verify that iFarmer Forget PIN is Successfully
-    [Tags]    forget
-    Open app
-    Click on Login Icon
-    CLick on Email Login Input Section
-    CLick on Wrong Password Login Input Section
-    Click on Login
-    Click on Forget PIN
-    Click on Email Login Input Section
-    Click on Forgeted New PIN Input Section
-    Click on Forgeted Confirm PIN Input Section
-    Click on Send
-    #Input OTP from gmail inbox
-    Click on Confirm
-    Click on Start
-    CLick on Email Login Input Section
     CLick on Password Login Input Section
     Click on Login
 
